@@ -154,8 +154,8 @@ color: red;
 }
 
 .foto-bar {
-  height: 62px;
-  width: 420px;
+  height: 65px;
+  width: 100%;
   background-color: #82DFD4;
   position: absolute;
   bottom: 0;
