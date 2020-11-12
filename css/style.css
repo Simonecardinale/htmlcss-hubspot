@@ -24,11 +24,15 @@ header {
   background-color: grey;
 }
 
-.header-container {
-  width: 80%;
-  height: 100%;
+.nav-top-container, .nav-bottom-container {
+  width: 100%;
+  height: 50%;
   margin: auto;
-  background-color: green;
+  background-color: blue;
+}
+
+.nav-top-container {
+  border-bottom: 3px solid black;
 }
 
 /* menu-bar */
@@ -40,20 +44,20 @@ nav {
 
 .nav-top {
   height: 75px;
-  width: 100%;
+  width: 80%;
   background-color: pink;
 }
 
 .nav-bottom {
   height: 75px;
-  width: 100%;
+  width: 80%;
   background-color: white;
 }
 
 .menu-top {
 background-color: #F4F9FD;
-border-bottom: 3px solid #A8B1B9;
 }
+
 .menu-top, .menu-bottom {
   width: 50%;
   height: 100%;
