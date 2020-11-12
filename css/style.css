@@ -7,6 +7,7 @@
 /* stili generali */
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #F4F9FD;
 }
 
 span {
@@ -20,6 +21,12 @@ span {
   clear: both;
   display: table;
   content: "";
+}
+
+.container {
+  width: 80%;
+  height: 700px;
+  margin: auto;
 }
 /* stili generali */
 
@@ -158,3 +165,38 @@ color: red;
 }
 
 /* /header */
+
+/* corpo centrale */
+
+/* section1 */
+.number1 {
+  height: 100vw;
+  width: 100%;
+  background-color: green;
+}
+
+.introduction {
+  height: 300px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.introduction > img {
+  width: 30%;
+}
+
+.introduction > p {
+  margin-top: 20px;
+}
+
+.crm {
+  height: 300px;
+  width: 100%;
+  border: 2px solid black;
+
+}
+/* /section1 */
+
+/* /corpo centrale */
