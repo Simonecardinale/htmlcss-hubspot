@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* stili generali */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+/* stili generali */
+
+/* header */
+header {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+}
+
+.header-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color: green;
+}
+
+/* menu-bar */
+nav {
+  height: 150px;
+  width: 100%;
+  background-color: red;
+}
+
+.nav-top {
+  height: 75px;
+  width: 100%;
+  background-color: pink;
+}
+
+.nav-bottom {
+  height: 75px;
+  width: 100%;
+  background-color: white;
+}
+
+.menu-top {
+background-color: #F4F9FD;
+border-bottom: 3px solid #A8B1B9;
+}
+.menu-top, .menu-bottom {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.left-container > i, .left-container > p {
+  float: left;
+  line-height:75px;
+  margin-right: 5px;
+}
+
+.menu-top p:nth-child(4) {
+  margin: 0 20px;
+}
+
+.right-container > i, .right-container > p {
+  float: right;
+  line-height:75px;
+  margin-right: 20px;
+  color: #01A5BE;
+}
+
+.right-container > p:nth-child(2) > span {
+border: 2px solid red;
+padding: 10px;
+border-radius: 5px;
+background-color: white;
+color: red;
+}
+
+/* /menu-bar */
+
+/* /header */
