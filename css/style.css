@@ -15,11 +15,17 @@ span {
   padding: 10px;
   color: white;
 }
+
+.clearfix::after {
+  clear: both;
+  display: table;
+  content: "";
+}
 /* stili generali */
 
 /* header */
 header {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: grey;
 }
@@ -113,5 +119,18 @@ color: red;
   margin: auto 10px;
 }
 /* /menu-bar */
+
+.jumbotron {
+  height: 100%;
+  width: 80%;
+  background-color: green;
+  margin: auto;
+}
+
+.h1-container {
+  height: 100%;
+  width: 50%;
+  background-color: orange;
+}
 
 /* /header */
