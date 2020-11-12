@@ -172,12 +172,12 @@ color: red;
 .number1 {
   height: 100vw;
   width: 100%;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .introduction {
   height: 300px;
-  width: 70%;
+  width: 100%;
   margin: auto;
   text-align: center;
   margin-top: 30px;
@@ -194,8 +194,124 @@ color: red;
 .crm {
   height: 300px;
   width: 100%;
-  border: 2px solid black;
+  border: 2px solid #EAEFF4;
+  border-radius: 5px;
+  margin-top: 70px;
+  background-color: white;
+  /* border: 2px solid black; */
+}
 
+.crm-container {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+.crm-left {
+  /* height: 100%; */
+  width: 20%;
+  /* border: 2px solid red; */
+  float: left;
+  text-align: center;
+  transform: translate(0, 25%);
+  margin-left: 50px;
+}
+
+.crm-right {
+  /* height: 100%; */
+  width: 60%;
+  /* border: 2px solid orange; */
+  float: left;
+  margin-left: 30px;
+  transform: translate(0, 25%);
+
+
+
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: auto;
+}
+
+.crm-left > span {
+  margin: 30px 20px;
+  display: block;
+}
+
+.crm-right > p {
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.h3-container {
+  position: relative;
+}
+
+.h3-container > h3 {
+  display: inline-block;
+  width: 40%;
+}
+
+.h3-container > hr {
+  width: 58%;
+  display: inline-block;
+  margin-left: 2%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: 1px solid black;
+}
+
+.crm-p-container {
+  margin-top: 30px;
+}
+
+.crm-p-container > i {
+  color: red;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.crm-p-container > p {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.red {
+  border: 2px solid red;
+}
+
+.card {
+  height: 100%;
+  width: 30%;
+  border: 2px solid green;
+  text-align: center;
+}
+
+.img-card {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  margin: auto;
+}
+
+.card > h2 {
+  margin-top: 50px;
+}
+
+.card > p {
+  margin: 30px 20px;
+}
+
+.card > hr {
+  margin: 100px 30px 0 30px;
+}
+
+.card > i {
+  display: inline-block;
 }
 /* /section1 */
 
