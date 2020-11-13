@@ -295,6 +295,11 @@ color: red;
   border: 2px solid #e8edf3;
   background-color: white;
   text-align: center;
+  float: left;
+}
+
+.card:nth-child(2) {
+  margin: 0 5%;
 }
 
 .img-card {
@@ -338,7 +343,7 @@ color: red;
 .card-bottom > span {
   display: block;
   text-align: center;
-  margin: 10px 70px;
+  margin: 20px 70px;
 }
 
 /* /section1 */
