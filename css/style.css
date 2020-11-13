@@ -25,7 +25,7 @@ span {
 
 .container {
   width: 80%;
-  height: 700px;
+  /* height: 700px; */
   margin: auto;
 }
 /* stili generali */
@@ -39,6 +39,7 @@ header {
   background-size: 80%;
   background-position: bottom 0 right 0;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .nav-top-container, .nav-bottom-container {
@@ -237,7 +238,6 @@ color: red;
 .image {
   height: 100px;
   width: 100px;
-  background-color: blue;
   margin: auto;
 }
 
@@ -286,20 +286,20 @@ color: red;
 }
 
 .red {
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  margin-top: 70px;
 }
 
 .card {
-  height: 100%;
   width: 30%;
-  border: 2px solid green;
+  border: 2px solid #e8edf3;
+  background-color: white;
   text-align: center;
 }
 
 .img-card {
   height: 200px;
   width: 200px;
-  background-color: orange;
   margin: auto;
 }
 
@@ -315,9 +315,32 @@ color: red;
   margin: 100px 30px 0 30px;
 }
 
-.card > i {
-  display: inline-block;
+.card-bottom {
+  margin-top: 30px;
+  text-align: left;
 }
+
+.card-bottom > h2 {
+  text-align: center;
+}
+
+.card-list {
+  list-style: none;
+  text-align: left;
+  margin: 30px 30px;
+}
+
+.card-list > li > i {
+  margin-right: 30px;
+  color: red;
+}
+
+.card-bottom > span {
+  display: block;
+  text-align: center;
+  margin: 10px 70px;
+}
+
 /* /section1 */
 
 /* /corpo centrale */
