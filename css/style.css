@@ -410,4 +410,58 @@ color: red;
 
 /* /section2 */
 
+/* section3 */
+.section3 {
+  height: 500px;
+  border: 2px solid red;
+}
+
+.section3 > * {
+  /* height: 30%; */
+  width: 70%;
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+}
+
+.lower-customers {
+  height: 70%;
+  width: 80%;
+}
+
+.customers, .brand {
+  /* height: 100%; */
+  width: 30%;
+  /* border: 2px solid blue; */
+  float: left;
+}
+
+.brand {
+  width: 50%;
+  margin-left: 20%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.customers > h2 {
+  font-size: 36px;
+}
+
+.customers > p {
+  margin-top: 20px;
+}
+
+.brand-image {
+  width: 25%;
+  float: right;
+}
+
+.brand > img:nth-child(n+5) {
+  margin-top:30px;
+}
+
+/* /section3 */
+
 /* /corpo centrale */
