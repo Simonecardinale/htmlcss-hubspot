@@ -404,7 +404,9 @@ color: red;
 /* /section2 */
 
 /* section3 */
-
+.section3 {
+  margin: 50px auto;
+}
 .section3 > * {
   /* height: 30%; */
   width: 70%;
