@@ -536,3 +536,52 @@ footer {
 }
 
 /* /footer */
+
+/* chat */
+
+.chat-container {
+  position: fixed;
+  top: 60%;
+  left: 75%;
+  text-align: right;
+}
+
+.fa-comments {
+  font-size: 30px;
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.chat-text {
+  width: 300px;
+  border: 1px solid grey;
+  background-color: white;
+  text-align: left;
+}
+
+.chat-text > p {
+  margin: 10px;
+}
+
+.icon-x  {
+  text-align: right;
+  margin-right: 10px;
+  position: relative;
+}
+
+.fa-robot {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: white;
+}
+
+
+/* /chat */
