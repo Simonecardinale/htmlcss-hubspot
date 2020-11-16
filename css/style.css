@@ -499,6 +499,11 @@ footer {
   border-radius: 5px;
 }
 
+.upper-footer-section-cta:hover {
+  background-color: #32495b;
+  color: white;
+}
+
 .upper-footer-section > i {
   margin-left: 20px;
   margin-top: 20px;
